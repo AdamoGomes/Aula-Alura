@@ -1,2 +1,2 @@
 # Aula-Alura
- Aulas de HTML5 e CSS3
+Aulas da Alura, criação de uma pagina de portifolio em HTML5 e CSS3
