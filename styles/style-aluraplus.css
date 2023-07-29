@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background-image: url('../imagens/Background.png');
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-color: #00030c;
+
+
+}
+.container__inicio{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    padding: 10% 5.5%;
+    gap: 54px;
+}
+.container__conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+}
+.container__conteudo__texto{
+    font-family: 'Inter';
+    font-size: 1.75rem;
+    font-weight: 700;
+    text-align: center;
+}
+.container__conteudo__botoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+.botoes{
+    display: flex;
+    flex-direction: column;
+    border: white solid 2px;
+    border-radius: 8px;
+    padding: 16px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+.asterisco{
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+}
+.section-01{
+    display: flex;
+    gap: 69px;
+    flex-flow: row;
+    padding: 210px 120px 151px 165px;
+    align-items: center;
+}
+.section-01-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.section-01-titulo{
+    font-size: 3rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+.section-01-descricao{
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.section-02{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    padding: 151px 166px 226px 120px;
+    gap: 70px;
+}
+.section-02-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.section-03{
+    display: flex;
+    align-items: center;
+    padding: 0 120px 226px 141px;
+    gap: 44px;
+}
+.botao__combo{
+    width: 30%;
+}
+.imagem-combo{
+    width: 60%;
+}
+.botoes:hover{
+    background-color: #167BF7;
+    
+}
