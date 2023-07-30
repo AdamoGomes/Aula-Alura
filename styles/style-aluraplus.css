@@ -1,25 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat&display=swap');
 
+:root{
+    --cor-azul: #167BF7;
+    --branco-principal: #FFFFFF;
+    --cor-cinza: #C0C0C0;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter'
+}
 *{
     margin: 0;
     padding: 0;
     text-decoration: none;
 }
 body{
-    background-image: url('../imagens/Background.png');
-    background-position-x: center;
-    background-repeat: no-repeat;
-    background-color: #00030c;
+    background-color: var(--cor-de-fundo);
 
 
 }
+.container{
+    background-image: url('../imagens/Background.png');
+    background-position-x: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
 .container__inicio{
-    width: 40%;
     display: flex;
     flex-direction: column;
-    color: white;
+    color: var(--branco-principal);
     align-items: center;
-    padding: 10% 5.5%;
+    padding: 15% 5.5%;
     gap: 54px;
 }
 .container__conteudo{
@@ -28,8 +39,11 @@ body{
     align-items: center;
     gap: 22px;
 }
+.imagem-combo{
+    width: 60%;
+}
 .container__conteudo__texto{
-    font-family: 'Inter';
+    font-family: var(--fonte-principal);
     font-size: 1.75rem;
     font-weight: 700;
     text-align: center;
@@ -45,43 +59,47 @@ body{
     flex-direction: column;
     border: white solid 2px;
     border-radius: 8px;
-    padding: 16px;
+    padding: 1em;
     width: 100%;
     text-align: center;
-    font-family: 'Inter', sans-serif;
-    color: white;
+    font-family: var(--fonte-principal), sans-serif;
+    color: var(--branco-principal);
+    transition: background-color 0.3s ease;
 }
 .asterisco{
-    font-family: 'Inter', sans-serif;
+    font-family: var(--fonte-principal), sans-serif;
     font-size: 0.75rem;
+    color: var(--cor-cinza);
 }
 .section-01{
     display: flex;
-    gap: 69px;
+    gap: 3em;
     flex-flow: row;
-    padding: 210px 120px 151px 165px;
+    margin: 10% 10%;
     align-items: center;
+}
+.img-telas{
+    width: 80%;
 }
 .section-01-texto{
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 0.3em;
 }
 .section-01-titulo{
     font-size: 3rem;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--fonte-principal), sans-serif;
     font-weight: 700;
     color: white;
 }
 .section-01-descricao{
     font-size: 1rem;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--fonte-principal), sans-serif;
     font-weight: 400;
     color: white;
 }
 .section-02{
     display: flex;
-    flex-flow: row;
     align-items: center;
     padding: 151px 166px 226px 120px;
     gap: 70px;
@@ -89,7 +107,10 @@ body{
 .section-02-texto{
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 1em;
+}
+.botao__combo{
+    width: 30%;
 }
 .section-03{
     display: flex;
@@ -97,13 +118,62 @@ body{
     padding: 0 120px 226px 141px;
     gap: 44px;
 }
-.botao__combo{
-    width: 30%;
+.div__destaque{
+    text-align: center;
+    margin-bottom: 3%;
 }
-.imagem-combo{
-    width: 60%;
+.section-04{
+    display: flex;
+    margin: 0 10%;
+    gap: 3em;
+}
+.section-04__dispositivo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+.rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.logo-aluraplus{
+    width: 8%;
+}
+.rodape__links{
+    display: flex;
+    gap: 16px;
+}
+.link{
+    font-family: var(--fonte-principal), sans-serif;
+    font-size: 1rem;
+    color: var(--branco-principal);
+}
+.copyrights{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.copyrights__texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--branco-principal);
+    font-size: 0.75rem;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    width: 65%;
+    gap: 25px;
+    margin-bottom: 3%;
 }
 .botoes:hover{
-    background-color: #167BF7;
+    border: --cor-azul 2px solid;
+    background-color: var(--cor-azul);
     
 }
