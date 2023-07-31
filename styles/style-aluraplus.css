@@ -177,3 +177,51 @@ body{
     background-color: var(--cor-azul);
     
 }
+.link:hover{
+    color: var(--cor-azul);
+}
+
+@media(max-width: 1200px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-01{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-01-titulo{
+        text-align: center;
+    }
+    .section-01-descricao{
+        text-align: justify;
+    }
+    .section-02{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .botao__combo{
+        align-self: center;
+        margin-top: 3%;
+    }
+    .section-03{
+        flex-direction: column;
+
+    }
+    .section-04{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-04__dispositivo{
+        margin-bottom: 0;
+    }
+    .celular{
+        margin-bottom: 16%;
+    }
+    .rodape__links{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+}
