@@ -1,0 +1,42 @@
+:root{
+    --cor-de-fundo: #ebecee;
+    --branco: white;
+    --laranja: #eb9b00;
+    --azul-gradient: linear-gradient(95.54deg, #002F52 35.45%, #3265B9 165.37%);
+    --fonte-pincipal: 'Poppins'
+}
+
+.banner{
+    background: var(--azul-gradient);
+    color: var(--branco);
+    text-align: center;
+    padding: 2.5em 2em;
+}
+.banner__titulo{
+    font-weight: 700;
+    font-size: 1.12rem;
+}
+.banner__texto{
+    margin: 1em 0;
+    font-weight: 400;
+}
+.banner__pesquisa{
+    padding: 2em;
+    background-color: transparent;
+    padding: 1em;
+    border: solid white 1px;
+    border-radius: 50px;
+    width: 100%;
+    color: var(--branco);
+    text-align: center;
+}
+.banner__pesquisa::placeholder{
+    color: var(--branco);
+    font-family: var(--fonte-pincipal);
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: center;
+    background-image: url('../../imagens/Pesquisa.png');
+    background-repeat: no-repeat;
+    background-position: 2em;
+}
