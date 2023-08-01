@@ -1,3 +1,11 @@
+:root{
+    --cor-de-fundo: #ebecee;
+    --branco: white;
+    --laranja: #eb9b00;
+    --azul: #002F52;
+    --azul-gradient: linear-gradient(95.54deg, #002F52 35.45%, #3265B9 165.37%);
+    --fonte-pincipal: 'Poppins'
+}
 .carrosel__titulo{
     color: var(--laranja);
     background-color: var(--branco);
@@ -16,4 +24,26 @@
 .swiper-pagination{
     position: initial;
     margin: 0.5em 0;
+}
+.card__descricao{
+    display: flex;
+    gap: 1em;
+}
+.card{
+    background-color: var(--branco);
+    margin: 1em;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.descricao__titulo{
+    color: var(--laranja);
+    font-size: 1rem;
+    font-weight: 700;
+}
+.descricao__titulo-livro{
+    margin: 1em 0;
+    color: var(--azul);
+    font-size: 1rem;
+    font-weight: 700;
 }
