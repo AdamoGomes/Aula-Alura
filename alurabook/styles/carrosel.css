@@ -61,4 +61,5 @@
     background-color: var(--laranja);
     text-align: center;
     padding: 1em;
+    color: var(--branco);
 }
