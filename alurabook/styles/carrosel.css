@@ -47,3 +47,18 @@
     font-size: 1rem;
     font-weight: 700;
 }
+.card__botoes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    align-items: center;
+}
+.botoes{
+    display: flex;
+}
+.botoes__ancora{
+    width: 37%;
+    background-color: var(--laranja);
+    text-align: center;
+    padding: 1em;
+}
