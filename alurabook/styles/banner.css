@@ -39,3 +39,13 @@
     background-repeat: no-repeat;
     background-position: 0em;
 }
+
+@media(min-width: 1024px){
+    .banner{
+        padding: 5em 4em;
+    }
+    .banner__pesquisa{
+        width: 50%;
+    }
+    
+}
