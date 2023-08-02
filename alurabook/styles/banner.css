@@ -21,9 +21,8 @@
     font-weight: 400;
 }
 .banner__pesquisa{
-    padding: 2em;
+    padding: 1em 2em;
     background-color: transparent;
-    padding: 1em;
     border: solid white 1px;
     border-radius: 50px;
     width: 100%;
