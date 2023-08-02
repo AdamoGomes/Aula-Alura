@@ -26,5 +26,12 @@
     border: solid var(--azul) 2px;
     padding: 1em 2em;
     text-align: center;
-
+    width: 80%;
+}
+.contato__email::placeholder{
+    font-family: 'Poppins';
+    color: var(--azul);
+    background-image: url('../../imagens/Email.svg');
+    background-repeat: no-repeat;
+    background-position: 2.5em;
 }
