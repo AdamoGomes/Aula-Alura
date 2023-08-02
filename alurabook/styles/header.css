@@ -41,7 +41,7 @@
     display: none;
     position: absolute;
     top: 100%;
-    width: 60vw;
+    width: 350px;
     z-index: 9999;
 }
 .lista-perfil{
@@ -49,7 +49,7 @@
     position: absolute;
     top: 100%;
     right: 0%;
-    width: 40vw;
+    width: 20vw;
     z-index: 9999;
 }
 .cabecalho__botao{
@@ -114,7 +114,7 @@
     }
     
     .cabecalho__alurabook{
-        padding: 1em 1em 1em 4em;
+        padding: 1em -0 1em 4em;
     }
     .cabecalho__titulo{
         display: inline;
@@ -128,14 +128,42 @@
     }
     .cabecalho__lista{
         display: flex;
-        gap: 3em;
-        margin-left: 5em;
+
         text-transform: uppercase;
+    }
+    .cabecalho__lista__item{
+        padding: 0 2.4em;
+    }
+    .cabecalho__lista__link{
+        color: var(--preto);
     }
     .perfil__favoritos{
         display: none;
     }
     .cabecalho__imagem{
         margin-right: 2em;
+    }
+    .categoria__botao{
+        display: none;
+    }
+    .categoria__botao:checked ~ .lista-categoria{
+        display: block;
+    }
+    .lista-categoria{
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 320px;
+        width: 20vw;
+        z-index: 9999;
+    }
+    .lista-categoria__item:hover{
+        background: var(--azul-gradient);
+    }
+    .lista-categoria__item:hover > .lista-categoria__link{
+        background: var(--branco);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-backdrop-fill-color: transparent;
     }
 }

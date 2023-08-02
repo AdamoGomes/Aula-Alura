@@ -35,3 +35,15 @@
     font-weight: 700;
     font-size: 0.8rem;
 }
+
+@media screen and (min-width: 1024px) {
+    .contato__titulo{
+        font-size: 1.5rem;
+    }
+    .lista-topicos{
+        padding: 0 6em;
+    }
+    .lista-topicos__link{
+        font-size: 1.5rem;
+    }
+}
