@@ -1,0 +1,10 @@
+.rodape{
+    background-color: var(--branco-f9);
+}
+hr{
+    margin: 0;
+}
+.rodape__texto{
+    padding: 1em;
+    color: var(--preto);
+}
