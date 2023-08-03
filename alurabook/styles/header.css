@@ -37,6 +37,10 @@
 .cabecalho__imagem{
     padding: 1em;
 }
+.cabecalho__perfil-texto{
+    margin: 0 3em 0 -2em;
+    display: none;
+}
 .lista-menu{
     display: none;
     position: absolute;
@@ -166,4 +170,12 @@
         -webkit-background-clip: text;
         -webkit-backdrop-fill-color: transparent;
     }
+}
+
+@media screen and (min-width: 1728px) {
+    .cabecalho__perfil-texto{
+        display: block;
+        font-size: 1.25rem;
+    }
+    
 }
