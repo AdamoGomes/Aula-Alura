@@ -95,3 +95,24 @@
         margin: 2em auto;
     }
 }
+
+@media(min-width: 1728px) {
+    .div__carrosel{
+        display: flex;
+        padding: 3em 4em;
+        align-items: center;
+        gap: 3em;
+    }
+    .descricao__titulo{
+        font-size: 2rem;
+    }
+    .descricao__titulo-livro{
+        font-size: 1.12rem;
+    }
+    .swiper-slide{
+        padding: 1em .5em;
+    }
+    .swiper-slide img{
+        width: 92%;
+    }
+}
